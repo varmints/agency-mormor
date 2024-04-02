@@ -1,0 +1,22 @@
+<template>
+  <section class="py-16 sm:py-20">
+    <div
+      class="mx-auto max-w-2xl px-4 text-center sm:px-6 lg:max-w-7xl lg:px-8"
+    >
+      <div class="flex flex-col gap-4 sm:gap-6">
+        <h1 class="text-4xl font-medium tracking-tight sm:text-5xl lg:text-6xl">
+          {{ $t("pricing") }}
+        </h1>
+        <p
+          class="text-primary-950/70 dark:text-primary-200/70 mx-auto max-w-xl text-lg sm:text-xl"
+        >
+          {{ $t("pricingSubtitle") }}
+        </p>
+      </div>
+    </div>
+  </section>
+</template>
+
+<script setup></script>
+
+<style scoped></style>
